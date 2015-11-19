@@ -1,4 +1,5 @@
 - view: tracker
+  sql_table_name: bi.v_d_economic_sentiment_tracker_denormalized1
 
 # # Specify the table name if it's different from the view name:
 #   sql_table_name: my_schema_name.tracker
@@ -22,7 +23,7 @@
 #     - measure: total_profit
 #       type: sum
 #       sql: ${profit}
-  sql_table_name: bi.v_d_economic_sentiment_tracker_denormalized1
+
   fields:
 
   - dimension: answer_desc
