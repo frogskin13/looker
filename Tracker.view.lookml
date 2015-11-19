@@ -24,8 +24,6 @@
 #       type: sum
 #       sql: ${profit}
 
-  fields:
-
   - dimension: answer_desc
     sql: ${TABLE}.answer_desc
 
@@ -44,3 +42,7 @@
 
   - dimension: question_desc
     sql: ${TABLE}.question_desc
+    
+  - measure: count
+    type: sum
+    sql: ${TABLE}.percentage
