@@ -22,7 +22,6 @@
 #     - measure: total_profit
 #       type: sum
 #       sql: ${profit}
-- view: v_d_economic_sentiment_tracker_denormalized
   sql_table_name: bi.v_d_economic_sentiment_tracker_denormalized1
   fields:
 
