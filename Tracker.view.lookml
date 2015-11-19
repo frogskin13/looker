@@ -46,4 +46,5 @@
     sql: ${TABLE}.question_desc
 
   - measure: count
-    type: sum(percentage)
+    type: sum
+    sql: ${TABLE}.percentage
