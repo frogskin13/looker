@@ -5,6 +5,8 @@
 
 - explore: v_d_economic_sentiment_tracker_denormalized1
 
+- explore: economic_tracker
+
 # - explore: acs_1yr_household
 
 # - explore: acs_1yr_population
