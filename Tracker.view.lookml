@@ -44,7 +44,3 @@
 
   - dimension: question_desc
     sql: ${TABLE}.question_desc
-
-  - measure: count
-    type: sum
-    sql: ${TABLE}.percentage
